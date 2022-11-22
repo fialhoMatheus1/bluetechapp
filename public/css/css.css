@@ -1,0 +1,390 @@
+/*------------------------------Design geral do site------------------------------*/
+
+header {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-nav {
+    margin-left: 4%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    width: 100%;
+}
+
+.caixa {
+    width: 90%;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.cor-nav {
+    background-color: #80caff;
+    padding: 0.7%;
+}
+
+.controlar-botoes {
+    margin-right: 4%;
+}
+
+.altura {
+    width: 100%;
+    min-height: 110vh;
+
+}
+
+.conteudo {
+    margin: 3%;
+    text-align: justify;
+}
+
+.logo-footer {
+    margin: 1%;
+}
+
+footer {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt-footer {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.controlar-social {
+    justify-content: center;
+}
+
+/*------------------------------Homepage------------------------------*/
+
+.controlarCards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 320px;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+    float: left;
+    text-align: justify;
+    display: flex;
+}
+
+.botaoCard {
+    text-align: center;
+    padding: 1%;
+}
+
+.botaoCard2 {
+    margin-top: 10%;
+    text-align: center;
+    padding: 1%;
+}
+
+.txt-card {
+    margin: 5%;
+}
+
+.centralizar-card {
+    margin-left: 23%;
+}
+
+.controlar-botao {
+    text-align: center;
+    margin: 2%;
+}
+
+.botao-card {
+    background-color: #80caff;
+    border: none;
+    padding: 3.9%;
+    width: 30%;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.imgCard {
+    justify-content: center;
+    padding: 1%;
+}
+
+.txtCard {
+    padding: 1%;
+}
+
+.altura-card {
+    min-height: 35vh;
+}
+
+.descer-botao {
+    margin-top: 15%;
+}
+
+/*------------------------------Tela de tabela do sensor------------------------------*/
+
+.titulo-tabela {
+    color: #00365c;
+    text-align: center;
+    margin: 1.5%;
+}
+
+.txt-tabela {
+    color: #00365c;
+}
+
+.txt-tabela2 {
+    font-weight: bold;
+}
+
+.tabela {
+    text-align: center;
+}
+
+/*------------------------------Tela de login, cadastro, alterar usuario------------------------------*/
+
+.titulo {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.titulo-login {
+    margin-top: 3%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.indicacoes {
+    font-size: large;
+    font-weight: 200;
+    margin-right: 1%;
+}
+
+.card-cadastro {
+    background-color: #00365c;
+    color: white;
+    width: 25%;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 39%;
+}
+
+.textbox {
+    width: 80%;
+    padding: 5%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.centralizar-caixa {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.centralizar-caixa-login {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.botao-entrar {
+    background-color: #80caff;
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 3%;
+}
+
+.botao-cadastrar {
+    background-color: white;
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 3%;
+}
+
+.centralizar-botao {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.centralizar-botao-cadastrar {
+    text-align: center;
+}
+
+.msg {
+    text-align: center;
+}
+
+.txt-editar {
+    margin: 0.5%;
+    font-size: large;
+    font-weight: 300;
+    padding-left: 10%;
+}
+
+/*------------------------------Área do usuário------------------------------*/
+
+.esq {
+    float: left;
+    width: 20%;
+}
+
+.dir {
+    float: left;
+    width: 80%;
+}
+
+.titulo {
+    color: #00365c;
+    font-size: x-large;
+}
+
+.centralizar-botao-user {
+    text-align: center;
+}
+
+.margin-user {
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.botao-user {
+    background-color: #80caff;
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 3%;
+}
+
+.img-user {
+    margin: 3%;
+}
+
+/*------------------------------Loja------------------------------*/
+
+.divloja2 {
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+    margin-left: 10cm;
+    margin-right: 10cm;
+    border-color: #00365c;
+    border-width: 3px;
+
+}
+
+.h5loja {
+    color: black;
+    font-family: Arial Black;
+
+}
+
+.ploja {
+    color: green;
+    font-family: Arial Black;
+    margin-top: 1cm;
+    font-size: 20px;
+}
+
+.p-1home {
+    font-size: 25px;
+    margin-top: 1cm;
+    color: #00365c;
+
+}
+
+.p-2home {
+    font-size: 25px;
+    margin-top: 1cm;
+    color: #00365c;
+    font-family: Arial;
+
+}
+
+.h1loja {
+    font-size: 30px;
+    color: #00365c;
+    margin-top: 2cm;
+    margin-bottom: 1cm;
+}
+
+.hloja {
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------------- CSS DO CARD 1 --------------------- */
+.div4home {
+    margin-top: 1cm;
+    margin-bottom: 2cm;
+    margin-left: 5cm;
+    margin-right: 2cm;
+}
+
+.card4home {
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+.cardp1 {
+    font-size: 20px;
+}
+
+/* ----------- FIM DO CSS DO CARD 1 ------------ */
+
+
+
+/* ------------------ CSS DO SEPARADOR --------------- */
+.p4home {
+    font-size: 30px;
+    color: transparent;
+}
+
+/* ------------- FIM DO CSS DO SEPARADOR -------------- */
+
+/* ----------- CSS DO CARD 2 ---------------- */
+
+.card2 {
+    margin-top: 1cm;
+    margin-bottom: 2cm;
+    margin-left: 10cm;
+    margin-right: 2cm;
+}
+
+.botaohome {
+    justify-content: center;
+}
+
+.textohome1 {
+    font-family: Arial black;
+    margin-top: 0.5cm;
+}
+
+.textohome {
+    font-family: Arial black;
+}
+
+/* ---------- FIM DO CSS DO CARD 2 --------------- */
